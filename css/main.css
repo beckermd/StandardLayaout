@@ -79,11 +79,10 @@ textarea {
   line-height: 1.5; }
 
 /* Headings */
-/* line 114, src/_underscores.scss */
+
 h1, h2, h3, h4, h5, h6 {
   clear: both; }
 
-/* line 117, src/_underscores.scss */
 hr {
   background-color: #ccc;
   border: 0;
@@ -114,15 +113,15 @@ dd { margin: 0 1.5em 1.5em; }
 
 b, strong { font-weight: bold; }
 
-/* line 151, src/_underscores.scss */
+
 dfn, cite, em, i {
   font-style: italic; }
 
-/* line 154, src/_underscores.scss */
+
 blockquote {
   margin: 0 1.5em; }
 
-/* line 157, src/_underscores.scss */
+
 address { margin: 0 0 1.5em; }
 
 sup, sub {
@@ -145,11 +144,11 @@ table {
   margin: 0 0 1.5em;
   width: 100%; }
 
-/* line 209, src/_underscores.scss */
+
 th {
   font-weight: bold; }
 
-/* line 212, src/_underscores.scss */
+
 img {
   height: auto;
   /* Make sure images are scaled correctly. */
@@ -184,7 +183,7 @@ a:hover, a:focus, a:active { color: midnightblue; }
   clip: rect(1px, 1px, 1px, 1px);
   position: absolute !important; }
 
-/* line 354, src/_underscores.scss */
+
 .screen-reader-text:hover,
 .screen-reader-text:active,
 .screen-reader-text:focus {
@@ -207,7 +206,7 @@ a:hover, a:focus, a:active { color: midnightblue; }
   /* Above WP toolbar */ }
 
 /* Clearing */
-/* line 385, src/_underscores.scss */
+
 .clear:before,
 .clear:after,
 .entry-content:before,
@@ -221,43 +220,43 @@ a:hover, a:focus, a:active { color: midnightblue; }
 .site-footer:before,
 .site-footer:after {
   content: '';
-  display: table; }
+  display: table;}
 
-/* line 395, src/_underscores.scss */
+
 .clear:after,
 .entry-content:after,
 .comment-content:after,
 .site-header:after,
 .site-content:after,
 .site-footer:after {
-  clear: both; }
+  clear: both;
+}
 
 /* =Menu
 ----------------------------------------------- */
-/* line 403, src/_underscores.scss */
+
 .main-navigation {
   clear: both;
   display: block;
   float: left;
   width: 100%; }
 
-/* line 409, src/_underscores.scss */
+
 .main-navigation ul {
   list-style: none;
   margin: 0;
   padding-left: 0; }
 
-/* line 414, src/_underscores.scss */
+
 .main-navigation li {
   float: left;
   position: relative; }
 
-/* line 418, src/_underscores.scss */
+
 .main-navigation a {
   display: block;
   text-decoration: none; }
 
-/* line 422, src/_underscores.scss */
 .main-navigation ul ul {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   display: none;
@@ -267,21 +266,18 @@ a:hover, a:focus, a:active { color: midnightblue; }
   top: 1.5em;
   z-index: 99999; }
 
-/* line 431, src/_underscores.scss */
 .main-navigation ul ul ul {
   left: 100%;
   top: 0; }
 
-/* line 435, src/_underscores.scss */
 .main-navigation ul ul a {
   width: 200px; }
 
-/* line 446, src/_underscores.scss */
 .main-navigation ul li:hover > ul {
   display: block; }
 
 /* Small menu */
-/* line 454, src/_underscores.scss */
+
 .menu-toggle {
   cursor: pointer;
   display: none; }
@@ -457,29 +453,22 @@ header#masthead #site-navigation ul li:last-child {
             /* line 112, src/_header.scss */
             header#masthead #site-navigation ul li ul li a:hover {
               background: url("img/white90.png"); }
-    /* line 119, src/_header.scss */
-    header#masthead #site-navigation ul #menu-item-40 {
-      width: 90px; }
-    /* line 122, src/_header.scss */
-    header#masthead #site-navigation ul #menu-item-37 {
-      width: 120px; }
-    /* line 125, src/_header.scss */
-    header#masthead #site-navigation ul #menu-item-282 {
-      width: 170px; }
-    /* line 128, src/_header.scss */
-    header#masthead #site-navigation ul #menu-item-39 {
-      width: 141px; }
-    /* line 131, src/_header.scss */
-    header#masthead #site-navigation ul #menu-item-38 {
-      width: 110px; }
-    /* line 134, src/_header.scss */
-    header#masthead #site-navigation ul #menu-item-36 {
-      width: 174px; }
-    /* line 137, src/_header.scss */
-    header#masthead #site-navigation ul #menu-item-35 {
-      width: 170px; }
 
-/* line 1, src/_footer.scss */
+    header#masthead #site-navigation ul #menu-item-40 { width: 90px; }
+
+    header#masthead #site-navigation ul #menu-item-37 { width: 120px; }
+
+    header#masthead #site-navigation ul #menu-item-282 { width: 170px; }
+
+    header#masthead #site-navigation ul #menu-item-39 { width: 141px; }
+
+    header#masthead #site-navigation ul #menu-item-38 { width: 110px; }
+
+    header#masthead #site-navigation ul #menu-item-36 { width: 174px; }
+
+    header#masthead #site-navigation ul #menu-item-35 { width: 170px; }
+
+
 footer#colophon {
   margin-top: 30px; }
 
@@ -487,23 +476,23 @@ footer#colophon .container {
     border-top: 1px solid #7ca9af;
     padding-top: 20px;
     font-size: 11px; }
-  /* line 8, src/_footer.scss */
+
   footer#colophon .widget {
     display: block;
     float: left;
     margin-right: 3.06748%;
     width: 31.28834%;
     line-height: 20px; }
-    /* line 33, src/neat/grid/_span-columns.scss */
+
     footer#colophon .widget:last-child {
       margin-right: 0; }
-    /* line 70, src/neat/grid/_omega.scss */
+
     footer#colophon .widget:nth-child(3) {
       margin-right: 0; }
-    /* line 75, src/neat/grid/_omega.scss */
+
     footer#colophon .widget:nth-child(3+1) {
       clear: left; }
-    /* line 12, src/_footer.scss */
+
     footer#colophon .widget ul {
       list-style: none;
       margin: 0;
@@ -525,7 +514,7 @@ footer#colophon .container {
 
 .page #secondary {
     display: block;
-    float: left;
+    float: right;
     margin-right: 3.06748%;
     width: 25%;
     margin-right: 0;
@@ -600,7 +589,7 @@ footer#colophon .container {
   text-transform: uppercase;
   margin: 20px 0 0;
   color: #004d68; }
-/* line 30, src/_page-styles.scss */
+
 .page #primary h4, .single #primary h4, .blog #primary h4 {
   color: #b09b4c;
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
@@ -608,7 +597,7 @@ footer#colophon .container {
   font-style: italic;
   font-size: 18px;
   margin: 0; }
-/* line 38, src/_page-styles.scss */
+
 .page #primary p, .single #primary p, .blog #primary p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
